@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSL.Microservice.Template.Api", "PSL.MicroserviceTemplate.Api\PSL.Microservice.Template.Api.csproj", "{6E24D904-B4B2-4450-9E5E-1AF942ABCCF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSL.Microservice.Template.Data", "PSL.MicroserviceTemplate.Data\PSL.Microservice.Template.Data.csproj", "{53962BC5-71CC-4593-9C9F-2D9EFE47B763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSL.Microservice.Template.Domain", "PSL.MicroserviceTemplate.Domain\PSL.Microservice.Template.Domain.csproj", "{31124015-8FF4-4378-B719-5D7BC2FA4254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSL.Microservice.Template.Domain.Abstractions", "PSL.MicroserviceTemplate.Domain.Abstractions\PSL.Microservice.Template.Domain.Abstractions.csproj", "{DEF50748-64B6-4E4F-BECA-3F0D6023E34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSL.MicroserviceTemplate.Domain.UnitTests", "PSL.MicroserviceTemplate.Domain.UnitTests\PSL.MicroserviceTemplate.Domain.UnitTests.csproj", "{0F4AC344-C278-4165-8F91-BA9FD07619AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSL.MicroserviceTemplate.IntegrationTests", "PSL.MicroserviceTemplate.IntegrationTests\PSL.MicroserviceTemplate.IntegrationTests.csproj", "{F87A7D3F-D579-4C10-987E-8075E0CBBD0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E24D904-B4B2-4450-9E5E-1AF942ABCCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E24D904-B4B2-4450-9E5E-1AF942ABCCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E24D904-B4B2-4450-9E5E-1AF942ABCCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E24D904-B4B2-4450-9E5E-1AF942ABCCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53962BC5-71CC-4593-9C9F-2D9EFE47B763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53962BC5-71CC-4593-9C9F-2D9EFE47B763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53962BC5-71CC-4593-9C9F-2D9EFE47B763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53962BC5-71CC-4593-9C9F-2D9EFE47B763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31124015-8FF4-4378-B719-5D7BC2FA4254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31124015-8FF4-4378-B719-5D7BC2FA4254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31124015-8FF4-4378-B719-5D7BC2FA4254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31124015-8FF4-4378-B719-5D7BC2FA4254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF50748-64B6-4E4F-BECA-3F0D6023E34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF50748-64B6-4E4F-BECA-3F0D6023E34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF50748-64B6-4E4F-BECA-3F0D6023E34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF50748-64B6-4E4F-BECA-3F0D6023E34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4AC344-C278-4165-8F91-BA9FD07619AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4AC344-C278-4165-8F91-BA9FD07619AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4AC344-C278-4165-8F91-BA9FD07619AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4AC344-C278-4165-8F91-BA9FD07619AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87A7D3F-D579-4C10-987E-8075E0CBBD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87A7D3F-D579-4C10-987E-8075E0CBBD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87A7D3F-D579-4C10-987E-8075E0CBBD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87A7D3F-D579-4C10-987E-8075E0CBBD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
