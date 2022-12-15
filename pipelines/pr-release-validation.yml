@@ -1,0 +1,47 @@
+# PSL.LabelService PR to main validation pipeline
+
+parameters:
+  - name: buildConfiguration
+    displayName: Build Configuration
+    type: string
+    default: Release
+    values:
+    - Debug
+    - Release
+
+resources:
+  repositories:
+  - repository: common
+    type: git
+    name: Hx/Hx.Common
+    
+variables:
+- template: pipelines/version.yml@common
+# project level version numbers
+- template: version-override.yml
+
+# Build Name is used in Helm appVersion so must follow SemVer spec
+name: $[variables['chartVersion']]
+
+trigger: none
+
+extends: 
+  template: pipelines/template-default.yml@common
+  parameters:
+    buildConfiguration: ${{ parameters.buildConfiguration }}
+    chartName: 'psl-microservicetemplate'
+    dockerfile: 'src/PSL.MicroserviceTemplate.Api/Dockerfile'
+    runtimeVersion: 6.0.x
+    sonarCloudProjectKey: 'positivesolutions_PSL.MicroserviceTemplate'
+    sonarCloudProjectName: 'PSL.MicroserviceTemplate'
+    prValidationBranchName: 'release'
+
+
+
+
+
+
+
+
+
+
