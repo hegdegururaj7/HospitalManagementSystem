@@ -1,7 +1,6 @@
 Platform = Any CPU
 Configuration = Release
-ContainerName = psl-microservicetemplate-api
-DockerContainerName = psl-microservices
+ContainerName = psl-microservicetemplate
 
 all: service chart
 
@@ -36,9 +35,9 @@ uninstall:
 # Local Development commands
 
 compose:
-	docker-compose -p $(DockerContainerName) up --no-start
+	docker-compose -p $(ContainerName) up --no-start
 
 compose_and_run:
-	docker-compose -p $(DockerContainerName) up -d
+	docker-compose -p $(ContainerName) up -d
 
 run: service compose_and_run
