@@ -38,4 +38,7 @@
 	  <ProjectReference Include="..\PSL.MicroserviceTemplate.Domain\PSL.MicroserviceTemplate.Domain.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<InternalsVisibleTo Include="PSL.MicroserviceTemplate.IntegrationTests" />
+	</ItemGroup>
 </Project>
