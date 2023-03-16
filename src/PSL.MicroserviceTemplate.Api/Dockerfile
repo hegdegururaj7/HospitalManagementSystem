@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine
 
-COPY out/PSL.MicroserviceTemplate.Api/ App/
+COPY bin/Publish/PSL.MicroserviceTemplate.Api/ App/
 COPY docker-entrypoint.sh App/
 
 WORKDIR /App

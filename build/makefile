@@ -13,7 +13,7 @@ build:
 	dotnet build ../src/PSL.MicroserviceTemplate.sln -c $(Configuration)
 
 publish:
-	dotnet publish ../src/PSL.MicroserviceTemplate.Api/PSL.MicroserviceTemplate.Api.csproj -o ../src/PSL.MicroserviceTemplate.Api/out/PSL.MicroserviceTemplate.Api -c $(Configuration)
+	dotnet publish ../src/PSL.MicroserviceTemplate.Api/PSL.MicroserviceTemplate.Api.csproj -o ../src/PSL.MicroserviceTemplate.Api/bin/Publish/PSL.MicroserviceTemplate.Api -c $(Configuration)
 
 create_images:
 	docker build -t $(ContainerName) ../src/PSL.MicroserviceTemplate.Api
