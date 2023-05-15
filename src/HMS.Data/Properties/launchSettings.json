@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "[RESET & SEED] HMS.Service.Data": {
+      "commandName": "Project",
+      "commandLineArgs": "/reset /seed /testdata=testdata.json",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,9 +1,0 @@
-apiVersion: v2
-name: psl-microservicetemplate
-description: Positive Solutions Microservice
-type: application
-# version and appVersion are supplied by the CI process.
-# If you add them here for local development, delete before check-in.
-# Substitute these with the container version you want to use
-# version: 0.1.0-buildType+revision
-# appVersion: 0.1.0.revision-buildType

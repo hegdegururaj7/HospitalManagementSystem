@@ -1,7 +1,0 @@
-variables:
-- name: majorVersion
-  value: 0
-- name: minorVersion
-  value: 1
-- name: patchVersion
-  value: 0

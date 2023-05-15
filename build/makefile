@@ -1,36 +1,22 @@
 Platform = Any CPU
 Configuration = Release
-ContainerName = psl-microservicetemplate
+ContainerName = hms-service
 
 all: service chart
 
 service: restore build publish create_images
 
 restore:
-	dotnet restore ../src/PSL.MicroserviceTemplate.sln --configfile ../src/nuget.config
+	dotnet restore ../src/HMS.Service.sln --configfile ../src/nuget.config
 
 build:
-	dotnet build ../src/PSL.MicroserviceTemplate.sln -c $(Configuration)
+	dotnet build ../src/HMS.Service.sln -c $(Configuration)
 
 publish:
-	dotnet publish ../src/PSL.MicroserviceTemplate.Api/PSL.MicroserviceTemplate.Api.csproj -o ../src/PSL.MicroserviceTemplate.Api/bin/Publish/PSL.MicroserviceTemplate.Api -c $(Configuration)
+	dotnet publish ../src/HMS.Api/HMS.Service.Api.csproj -o ../src/HMS.Api/bin/Publish/HMS.Api -c $(Configuration)
 
 create_images:
-	docker build -t $(ContainerName) ../src/PSL.MicroserviceTemplate.Api
-
-# Helm commands to package as a helm chart and installation helpers for Kubernetes
-
-chart:
-	helm package -u ../deploy/$(ContainerName)
-
-install:
-	helm install --set apiTag=latest $(ContainerName) ../deploy/$(ContainerName)
-
-upgrade:
-	helm upgrade --set apiTag=latest $(ContainerName) ../deploy/$(ContainerName)
-
-uninstall:
-	helm uninstall $(ContainerName)
+	docker build -t $(ContainerName) ../src/HMS.Api
 
 # Local Development commands
 

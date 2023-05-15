@@ -1,0 +1,118 @@
+{
+  "Doctors": [
+    {
+      "Id": "cf703a66-99b1-401e-85a7-e14f0ad6bdb8",
+      "DoctorName": "Rakesh",
+      "Qualification": "Heart Specialist",
+      "IsAvailable": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f731",
+      "DoctorName": "Naveen",
+      "Qualification": "General Medicine",
+      "IsAvailable": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f732",
+      "DoctorName": "Rahul",
+      "Qualification": "Kidney Specailist",
+      "IsAvailable": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f733",
+      "DoctorName": "Ramesh",
+      "Qualification": "Bone Specailist",
+      "IsAvailable": true
+    }
+  ],
+  "Beds": [
+    {
+      "Id": "cf703a66-99b1-401e-85a7-e14f0ad6bdb1",
+      "BedNumber": 1,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f739",
+      "BedNumber": 2,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f736",
+      "BedNumber": 3,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f738",
+      "BedNumber": 4,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f728",
+      "BedNumber": 5,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f732",
+      "BedNumber": 6,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f638",
+      "BedNumber": 7,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f632",
+      "BedNumber": 8,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f633",
+      "BedNumber": 9,
+      "IsOccupied": true
+    },
+    {
+      "Id": "768015aa-b523-42f9-92dc-3184fe79f635",
+      "BedNumber": 10,
+      "IsOccupied": true
+    }
+  ],
+  "Patients": [
+    {
+      "Id": "d2aeff52-dfce-4fb9-8b19-74293282a12d",
+      "PatientName": "Sarthak"
+    },
+    {
+      "Id": "688150d3-718a-4090-91ca-3997fe20783b",
+      "PatientName": "Tanmay"
+    },
+    {
+      "Id": "c2679c9c-85bc-40f5-912b-674a3c190fdb",
+      "PatientName": "Sampath"
+    },
+    {
+      "Id": "23b22e7d-b626-4a27-a9a1-7ea37c012f54",
+      "PatientName": "Sanketh"
+    },
+    {
+      "Id": "1e451815-b848-4ba9-91c6-cd78e775a8ce",
+      "PatientName": "Tammara"
+    },
+    {
+      "Id": "c23ac606-b993-454b-9786-9d82680edb6e",
+      "PatientName": "Poly"
+    },
+    {
+      "Id": "f594c513-6e5e-47b2-8347-24ac389b98b9",
+      "PatientName": "Nadia"
+    },
+    {
+      "Id": "e9a5120c-4990-4e7f-a4b7-58680c30faf7",
+      "PatientName": "Craddock"
+    },
+    {
+      "Id": "1264985b-bbbf-435b-84a4-9fb97c7cc84a",
+      "PatientName": "DaveO"
+    }
+  ]
+}
